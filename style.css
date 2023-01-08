@@ -2,3 +2,32 @@
     margin: 0;
     border: 0;
 }
+/* calculator screen */
+.screen-styles {
+    width: 400px;
+    border: solid black 2px;
+}
+
+/* Calculator inputs */
+.button-table {
+    display: grid;
+    width: 400px;
+    gap: 0.25rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button {
+    background-color: #143f77;
+    color: white;
+    padding: 2rem 2.5rem;
+    font-size: 1rem;
+}
+
+.grid-span-2 {
+    grid-column: span 2;
+}
+
+.grid-span-4 {
+    grid-column: span 4;
+    background-color: black;
+}

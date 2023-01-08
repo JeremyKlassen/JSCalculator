@@ -8,7 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="container"></div>
-    <script src="index.js"></script>
+    <div id="container">
+        <div id="output">
+            <h1 id="screen" class="screen-styles">0</h1>
+        </div>
+        <div id="input">
+            <!-- buttons -->
+            <div id="buttons" class="button-table">               
+                <button id="seven" value="7">7</button>
+                <button id="eight" value="8">8</button>
+                <button id="nine" value="9">9</button>
+                <button id="multiply" value="*">*</button>
+                <button id="four" value="4">4</button>
+                <button id="five" value="5">5</button>
+                <button id="six" value="6">6</button>
+                <button id="divide" value="/">/</button>
+                <button id="one" value="1">1</button>
+                <button id="two" value="2">2</button>
+                <button id="three" value="3">3</button>
+                <button id="add" value="+">+</button>
+                <button id="subtract" value="-">-</button>
+                <button value="0" id="zero">0</button>
+                <button class="grid-span-2" value="=" id="equals">=</button>
+                <button id="clear" value="c" class="grid-span-4">clear</button>
+            </div>
+        </div>
+    </div>
+    <script src="selectors.js"></script>
 </body>
 </html>
